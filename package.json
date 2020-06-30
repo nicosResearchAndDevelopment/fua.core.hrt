@@ -1,0 +1,23 @@
+{
+  "name": "core.hrtn",
+  "version": "1.0.0",
+  "description": "high resolution timer (node version)",
+  "main": "./src/core.hrtn.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git02.int.nsc.ag:10022/Research/fua/lib/core.hrtn.git"
+  },
+  "keywords": [
+    "timer",
+    "time",
+    "hrtime"
+  ],
+  "author": "jlangkau@nicos-ag.com",
+  "license": "ISC"
+}
