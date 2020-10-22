@@ -1,5 +1,5 @@
 {
-  "name": "core.hrtn",
+  "name": "fua.core.hrt",
   "version": "1.0.0",
   "description": "high resolution timer (node version)",
   "main": "./src/core.hrtn.js",
