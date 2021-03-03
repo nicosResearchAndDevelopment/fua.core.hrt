@@ -1,17 +1,23 @@
 {
-  "name": "fua.core.hrt",
+  "name": "@nrd/fua.core.hrt",
   "version": "1.0.0",
   "description": "high resolution timer (node version)",
   "main": "./src/core.hrtn.js",
-  "directories": {
-    "doc": "doc"
+  "devDependencies": {
+    "mocha": "^8.3.0",
+    "expect": "^26.6.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "mocha": {
+    "bail": false,
+    "recursive": false,
+    "spec": "test/*.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://git02.int.nsc.ag/Research/fua/lib/core.hrtn.git"
+    "url": "ssh://git@git02.int.nsc.ag:10022/Research/fua/lib/core.hrtn.git"
   },
   "keywords": [
     "timer",
