@@ -2,7 +2,10 @@
   "name": "@nrd/fua.core.hrt",
   "version": "1.0.0",
   "description": "high resolution timer (node version)",
-  "main": "./src/core.hrtn.js",
+  "main": "src/core.hrtn.js",
+  "files": [
+    "src/core.hrtn.js"
+  ],
   "devDependencies": {
     "mocha": "^8.3.0",
     "expect": "^26.6.2"
@@ -25,5 +28,5 @@
     "hrtime"
   ],
   "author": "jlangkau@nicos-ag.com",
-  "license": "ISC"
+  "license": "UNLICENSED"
 }
