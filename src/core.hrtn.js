@@ -39,4 +39,8 @@ hrTime.floor = function () {
     return Math.floor(hrTime());
 };
 
+hrTime.datetime = function () {
+    return new Date(1e3 * hrTime()).toISOString();
+};
+
 module.exports = hrTime;

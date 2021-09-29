@@ -39,4 +39,10 @@ describe("core.hrtn", () => {
         }
     });
 
+    test("should have a datetime method returning strings", function () {
+        const datetime = hrtn.datetime();
+        expect(typeof datetime).toBe('string');
+        console.log(datetime);
+    });
+
 });
