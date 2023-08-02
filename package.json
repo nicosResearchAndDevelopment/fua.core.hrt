@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/lib/core.hrtn.git"
+    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/core/hrt.git"
   },
   "keywords": [
     "timer",
     "time",
     "hrtime"
   ],
-  "author": "jlangkau@nicos-ag.com",
+  "author": "spetrac@nicos-ag.com",
   "license": "UNLICENSED"
 }
