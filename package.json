@@ -1,5 +1,5 @@
 {
-  "name": "@nrd/fua.core.hrt",
+  "name": "@nicosResearchAndDevelopment/fua.core.hrt",
   "version": "1.0.0",
   "description": "high resolution timer (node version)",
   "main": "src/core.hrtn.js",
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/core/hrt.git"
+    "url": "ssh://git@github.com:nicosResearchAndDevelopment/fua.core.hrt.git"
   },
   "keywords": [
     "timer",
     "time",
     "hrtime"
   ],
-  "author": "spetrac@nicos-ag.com",
-  "license": "UNLICENSED"
+  "author": "Simon Petrac",
+  "license": "MIT"
 }

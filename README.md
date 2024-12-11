@@ -1,1 +1,1 @@
-# @nrd/fua.core.hrt
+# fua.core.hrt
