@@ -1,7 +1,7 @@
 {
-  "name": "@nicosResearchAndDevelopment/fua.core.hrt",
+  "name": "@fua/core.hrt",
   "version": "1.0.0",
-  "description": "high resolution timer (node version)",
+  "description": "",
   "main": "src/core.hrtn.js",
   "files": [
     "src/*"
@@ -27,6 +27,6 @@
     "time",
     "hrtime"
   ],
-  "author": "Simon Petrac",
+  "author": "Simon Petrac <pfoerdie@gmail.com>",
   "license": "MIT"
 }
